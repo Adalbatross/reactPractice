@@ -1,0 +1,31 @@
+.counter {
+    background-color: rgb(144, 169, 56);
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.button, .reset {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px; /* Set a fixed width for both buttons */
+    text-align: center;
+}
+
+.button:hover, .reset:hover {
+    background-color: #0056b3;
+}
